@@ -1,5 +1,5 @@
 import './App.css';
-import Formulario from './componentes/formulario';
+import ListaDeTareas from './componentes/lista-de-tareas';
 import Logo from './componentes/logo';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Logo />
       <div className='tareas-lista-principal'>
         <h1>Mis tareas</h1>
-        <Formulario />
+        <ListaDeTareas />
       </div>
     </div>
   );
